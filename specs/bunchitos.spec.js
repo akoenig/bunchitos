@@ -23,8 +23,8 @@ describe('The "bunchitos" module loader', function () {
     it('should be able to load modules from "node_modules"', function (done) {
         var modules = bunchitos(true);
 
-        expect(modules.testModule).toBeDefined();
-        expect(typeof modules.testModule).toBe('function');
+        expect(modules.testModuleOne).toBeDefined();
+        expect(typeof modules.testModuleOne).toBe('function');
 
         done();
     });
@@ -32,8 +32,8 @@ describe('The "bunchitos" module loader', function () {
     it('should be able to load modules from the "package.json"', function (done) {
         var modules = bunchitos();
 
-        expect(modules.testModule).toBeDefined();
-        expect(typeof modules.testModule).toBe('function');
+        expect(modules.testModuleOne).toBeDefined();
+        expect(typeof modules.testModuleOne).toBe('function');
 
         done();
     });
@@ -41,8 +41,8 @@ describe('The "bunchitos" module loader', function () {
     it('should be able to load only specifiy modules (by prefix)', function (done) {
         var modules = bunchitos('test-');
 
-        expect(modules.testModule).toBeDefined();
-        expect(typeof modules.testModule).toBe('function');
+        expect(modules.moduleOne).toBeDefined();
+        expect(typeof modules.moduleOne).toBe('function');
 
         expect(modules.express).toBeUndefined();
 

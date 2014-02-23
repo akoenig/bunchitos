@@ -19,13 +19,10 @@
 
 `prefix`
 
-The prefix that defines which modules should be required (e.g. "gulp-" will load all "gulp-*" modules whereas "grunt-" will load all grunt modules). _Note that the return object will have all the module names as camel cased properties. (e.g. gulp-minify-css -> minifyCss).
+The prefix that defines which modules should be required (e.g. "gulp-" will load all "gulp-*" modules whereas "grunt-" will load all grunt modules). If you don't define a prefix, all modules will be loaded. _Note that the return object will have all the module names as camel cased properties (e.g. gulp-minify-css -> minifyCss)._
 
 `fsOnly` (optional; default=false)
 The dependency reference is by default the `package.json`. If this flag is true, then the dependencies will be searched only within the `node_modules` directory without checking the `package.json`.
-
-`replacePrefix` (optional; default=true)
-Removes the prefix out of the module name, so that you are able to access required modules without it (e.g. gulp-jshint -> jshint).
 
 ## Tests
 

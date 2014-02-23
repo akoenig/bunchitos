@@ -1,7 +1,7 @@
 {
     "name": "bunchitos-test",
     "dependencies": {
-        "test-module": "~0.1.0",
+        "test-module-one": "~0.1.0",
         "express": "~3.4.8"
     }
 }
