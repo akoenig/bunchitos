@@ -1,4 +1,4 @@
-# bunchitos
+# bunchitos [![Build Status](https://travis-ci.org/akoenig/bunchitos.png?branch=v0.1.1)](https://travis-ci.org/akoenig/bunchitos)
 
 > Loads a bunch of Node.js modules by a given prefix.
 
