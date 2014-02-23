@@ -1,7 +1,7 @@
 {
   "name": "bunchitos",
   "version": "0.1.0",
-  "description": "Loads a bunch of modules by a given prefix.",
+  "description": "Loads a bunch of Node.js modules by a given prefix.",
   "author": {
     "name": "André König",
     "email": "andre.koenig@posteo.de"

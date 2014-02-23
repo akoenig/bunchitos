@@ -1,6 +1,6 @@
 # bunchitos
 
-> Loads a bunch of modules by a given prefix.
+> Loads a bunch of Node.js modules by a given prefix.
 
 ## Installation
 
