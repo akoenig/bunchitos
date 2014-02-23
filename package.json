@@ -22,10 +22,15 @@
     "module",
     "loader"
   ],
-  "author": "André König",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/akoenig/bunchitos/issues"
   },
-  "homepage": "https://github.com/akoenig/bunchitos"
+  "homepage": "https://github.com/akoenig/bunchitos",
+  "dependencies": {
+    "findup-sync": "~0.1.2"
+  },
+  "devDependencies": {
+    "gulp-jasmine": "~0.1.4",
+    "gulp-jshint": "~1.4.2"
+  }
 }
