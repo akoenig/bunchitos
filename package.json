@@ -9,7 +9,7 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "test": "gulp"
+    "test": "NODE_PATH=`pwd`/specs/assets/node_modules gulp"
   },
   "repository": {
     "type": "git",
