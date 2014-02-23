@@ -1,0 +1,31 @@
+{
+  "name": "bunchitos",
+  "version": "0.1.0",
+  "description": "Loads a bunch of modules by a given prefix.",
+  "author": {
+    "name": "André König",
+    "email": "andre.koenig@posteo.de"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:akoenig/gulp-imacss.git"
+  },
+  "keywords": [
+    "module",
+    "loader",
+    "prefix",
+    "module",
+    "loader"
+  ],
+  "author": "André König",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akoenig/bunchitos/issues"
+  },
+  "homepage": "https://github.com/akoenig/bunchitos"
+}
