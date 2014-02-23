@@ -34,6 +34,10 @@ This is because I had to modify the `NODE_PATH` so that `bunchitos` is able to f
 
 ## Changelog
 
+### Version 0.1.1 (20140223)
+
+- Fixed missing devDependency.
+
 ### Version 0.1.0 (20140223)
 
 - Initial Release.

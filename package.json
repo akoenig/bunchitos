@@ -1,6 +1,6 @@
 {
   "name": "bunchitos",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Loads a bunch of Node.js modules by a given prefix.",
   "author": {
     "name": "André König",
@@ -31,6 +31,7 @@
   },
   "devDependencies": {
     "gulp-jasmine": "~0.1.4",
-    "gulp-jshint": "~1.4.2"
+    "gulp-jshint": "~1.4.2",
+    "gulp": "~3.5.2"
   }
 }
